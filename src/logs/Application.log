@@ -1,0 +1,14 @@
+2018-04-10 18:14:35 INFO  TestBase:90 - Browser :- chrome
+2018-04-10 18:14:35 INFO  TestBase:98 - OS Name :-Windows 10
+2018-04-10 18:14:50 INFO  TestBase:140 - navigating to :-http://automationpractice.com/index.php
+2018-04-10 18:15:00 INFO  TestBase:26 - Before Class
+2018-04-10 18:15:00 INFO  TestBase:284 - Before Method
+2018-04-10 18:15:08 INFO  TestBase:34 - =======Starting TS001_verifyAaddToCart test========
+2018-04-10 18:16:02 INFO  HomePage:207 - The size of menu tab is 3
+2018-04-10 18:16:13 INFO  HomePage:210 - The menu tab clicked :-WOMEN
+2018-04-10 18:16:19 INFO  HomePage:210 - The menu tab clicked :-DRESSES
+2018-04-10 18:16:24 INFO  HomePage:210 - The menu tab clicked :-T-SHIRTS
+2018-04-10 18:16:31 INFO  TestBase:43 - =======Finished TS001_verifyAaddToCart test========
+2018-04-10 18:16:40 INFO  TestBase:276 - After Method
+2018-04-10 18:16:40 INFO  TestBase:295 - browser closed
+2018-04-10 18:16:41 INFO  TestBase:66 - After Class

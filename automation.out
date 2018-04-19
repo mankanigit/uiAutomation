@@ -1,0 +1,5 @@
+2018-04-06 17:44:10 INFO  TestBase:134 - navigating to :-file:///Users/bsingh5/git/POMWithPageFactoryFramework/project/demoSite.htm
+2018-04-06 17:44:22 INFO  TestBase:285 - browser closed
+2018-04-06 17:45:19 INFO  TestBase:134 - navigating to :-www.google.com
+2018-04-06 17:45:19 INFO  TestBase:285 - browser closed
+2018-04-06 17:47:18 INFO  TestBase:134 - navigating to :-http://automationpractice.com/index.php

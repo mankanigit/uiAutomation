@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="125690" started-at="2018-04-10T12:44:35Z" finished-at="2018-04-10T12:46:41Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="125690" started-at="2018-04-10T12:44:35Z" finished-at="2018-04-10T12:46:41Z">
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="setUp" is-config="true" duration-ms="24953" started-at="2018-04-10T18:14:35Z" finished-at="2018-04-10T18:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2018-04-10T18:15:00Z" finished-at="2018-04-10T18:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart.TS001_verifyAaddToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS001_verifyAaddToCart()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="TS001_verifyAaddToCart" duration-ms="100152" started-at="2018-04-10T18:15:00Z" finished-at="2018-04-10T18:16:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TS001_verifyAaddToCart -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-10T18:16:40Z" finished-at="2018-04-10T18:16:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TS001_verifyAaddToCart status=SUCCESS method=TC001_VerifyAaddToCart.TS001_verifyAaddToCart()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d] output=<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="endTest" is-config="true" duration-ms="540" started-at="2018-04-10T18:16:40Z" finished-at="2018-04-10T18:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
