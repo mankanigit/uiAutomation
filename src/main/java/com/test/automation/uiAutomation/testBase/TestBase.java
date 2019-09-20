@@ -1,5 +1,6 @@
 package com.test.automation.uiAutomation.testBase;
 
+import java.awt.GraphicsConfiguration;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.monte.screenrecorder.ScreenRecorder;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -34,6 +36,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -43,15 +46,18 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.test.automation.uiAutomation.customListner.WebEventListener;
 import com.test.automation.uiAutomation.excelReader.Excel_Reader;
+import com.test.automation.uiAutomation.videoRecording.Utility;
 
 /**
  * 
- * @author Roshan Mankani
+ * @author roshan_mankani
  *
  */
 public class TestBase {
 
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
+	
+	
 
 	public WebDriver driver;
 	Excel_Reader excel;
@@ -61,9 +67,13 @@ public class TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public ITestResult result;
+	public Utility utility;
 
-	public WebDriver getDriver() {
-		return driver;
+	
+
+	public WebDriver getDriver() {	
+		
+		return driver;				
 	}
 
 	static {
@@ -83,7 +93,8 @@ public class TestBase {
 		this.driver = driver;
 	}
 
-	public void init() throws IOException {
+	public void init() throws IOException {	
+	
 		loadData();
 		String log4jConfPath = "log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
@@ -91,6 +102,7 @@ public class TestBase {
 		System.out.println(OR.getProperty("browser"));
 		selectBrowser(OR.getProperty("browser"));
 		getUrl(OR.getProperty("url"));
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);		
 	}
 
 	public void selectBrowser(String browser) {
@@ -273,26 +285,34 @@ public class TestBase {
 	@AfterMethod()
 	public void afterMethod(ITestResult result) {
 		getresult(result);
-		log.info("After Method");
-		
+		log.info("After Method");	
+		// Temp Code for testing	
+		driver.close();
+		log.info("browser closed");
+		//----------------------------
 	}
 
 	@BeforeMethod()
-	public void beforeMethod(Method result) {
+	public void beforeMethod(Method result) throws IOException {
+		// Temp Code for testing		
+		init();
+		//----------------------------
 		test = extent.startTest(result.getName());
 		test.log(LogStatus.INFO, result.getName() + " test Started");
-		log.info("Before Method");
+		log.info("Before Method");		
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterSuite(alwaysRun = true)
 	public void endTest() {
 		closeBrowser();
-		log.info("After Class");
+		log.info("After Suite");
 	}
 
 	public void closeBrowser() {
 		//driver.quit();
-		log.info("browser closed");
+		
+		/*driver.close();
+		log.info("browser closed");*/
 		extent.endTest(test);
 		extent.flush();
 	}
@@ -302,11 +322,44 @@ public class TestBase {
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 		return element;
 	}
+	
+	
+	
+	public void sleep(int millisecond){
+		try{
+			Thread.sleep(millisecond);
+		}catch(Exception e){
+			
+		}
+	}
+	
+	// This method is use for start video recording.
+	public void videoRecording_start(){	
+		try{
+		 utility = new Utility();
+		 utility.startRecording();
+		 log.info("The video recording is startted");
+		}catch(Exception e){
+			log.info("The videoRecording throwing error "+ e.getMessage());
+		}		
+	}
+	
+	// This method is use for stop video recording.
+	public void videoRecording_stop(){	
+		try{		
+		 utility.stopRecording();
+		 log.info("The video recording is stoped");
+		}catch(Exception e){
+			log.info("The videoRecording throwing error "+ e.getMessage());
+		}		
+	}
+	
+	
 
 	//@Parameters("browser")
 	//@BeforeTest
-	public void launchapp(String browser) throws IOException {
-
+	public void launchapp(String browser) throws IOException {		
+		
 		if (System.getProperty("os.name").contains("Mac")) {
 			if (browser.equals("chrome")) {
 				//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver");
@@ -376,8 +429,17 @@ public class TestBase {
 				getUrl(OR.getProperty("url"));
 			} else {
 				throw new IllegalArgumentException("The Browser Type is Undefined");
+				
 			}
 		}
 	}
+	
+	
+
+
+	
+	
+	
+	
 
 }

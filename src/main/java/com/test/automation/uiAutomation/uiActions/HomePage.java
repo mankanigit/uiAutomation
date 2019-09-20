@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,7 +17,7 @@ import com.test.automation.uiAutomation.elements.HomePageElements;
 import com.test.automation.uiAutomation.testBase.TestBase;
 /**
  * 
- * @author Roshan Mankani
+ * @author roshan_mankani
  *
  */
 public class HomePage extends HomePageElements{
@@ -96,6 +97,61 @@ public class HomePage extends HomePageElements{
 		PageFactory.initElements(driver, this);
 		
 	}
+	
+	public boolean readingHomePage(){
+		try{
+			log("The Reading Report is visible :-"+reading_report.isDisplayed());	
+			reading_report.click();
+			log("The Reading Report is clicked :-"+reading_report.toString());
+			}catch(Exception e){
+				log("Error message in readingHomePage method " + e.getMessage());
+				return false;
+			}		
+		log("Successfully navigate on Reading Report");
+		return true;
+	}
+	
+	public boolean mathHomePage(){
+		try{
+			log("The Math Report is visible :-"+math_report.isDisplayed());	
+			math_report.click();
+			log("The Math Report is clicked :-"+math_report.toString());
+			}catch(Exception e){
+				log("Error message in mathHomePage method " + e.getMessage());
+				return false;
+			}		
+		log("Successfully navigate on Math Report");
+		return true;
+	}
+	
+	
+	
+	
+	public boolean masteryDashboard(){		
+		try{
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("window.scrollBy(0,250);");
+			log("The mastery dashboard is visible :-"+monitor_std_mastry_dashbord.isDisplayed());
+			monitor_std_mastry_dashbord.click();			
+		}catch(Exception e){
+			log("Error message in masteryDashboard method " + e.getMessage());
+			return false;
+		}		
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//================================================================================
 	
 	public void loginToApplication(String emailAddress, String password){
 		signIn.click();
@@ -213,6 +269,33 @@ public class HomePage extends HomePageElements{
 		}
 		return false;
 	}
+	
+	
+	public boolean verifyReadingReport(){		
+		return true;
+	}
+	
+	public boolean loginTeacherAdmin(String userid,String pwd){
+		try{
+			teacher_admin.click();
+			log.info("The teacher_admin clicked successfully");
+			username.sendKeys(userid);
+			log.info("Username is entered successfully: " + userid);
+			password.sendKeys(pwd);
+			log.info("Password is entered successfully: " + pwd);
+			btnlogin.click();
+			log.info("The login is clicked successfully ");
+		}catch(Exception e){
+			log.info("There has loginTeacherAdmin");
+			return false;			
+		}
+		return true;
+	}
+	
+	
+
+	
+	
 	
 	
 	

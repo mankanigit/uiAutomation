@@ -12,8 +12,9 @@
 <classes>
 <!-- <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration"></class> -->
 <!-- <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords"></class> -->
-<class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart"></class>
+<!-- <class name="com.test.automation.uiAutomation.renaissanceReading.TC001_VerifyReadingReport"></class> -->
 <!-- <class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink"></class> -->
+<!-- <class name="com.test.automation.uiAutomation.homepage.TC001_VerifyLoginWithInvalidCredentailsToAutoMationPractices"></class> -->
 </classes>
 </test>
 
@@ -23,5 +24,11 @@
 <class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink"></class>
 </classes>
 </test> -->
+
+<test name="SmokeTest">
+<classes>
+<class name="com.test.automation.uiAutomation.smoketest.SmokeTest"></class>
+</classes>
+</test>
 
 </suite>

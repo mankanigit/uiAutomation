@@ -1,14 +1,225 @@
-2018-04-10 18:14:35 INFO  TestBase:90 - Browser :- chrome
-2018-04-10 18:14:35 INFO  TestBase:98 - OS Name :-Windows 10
-2018-04-10 18:14:50 INFO  TestBase:140 - navigating to :-http://automationpractice.com/index.php
-2018-04-10 18:15:00 INFO  TestBase:26 - Before Class
-2018-04-10 18:15:00 INFO  TestBase:284 - Before Method
-2018-04-10 18:15:08 INFO  TestBase:34 - =======Starting TS001_verifyAaddToCart test========
-2018-04-10 18:16:02 INFO  HomePage:207 - The size of menu tab is 3
-2018-04-10 18:16:13 INFO  HomePage:210 - The menu tab clicked :-WOMEN
-2018-04-10 18:16:19 INFO  HomePage:210 - The menu tab clicked :-DRESSES
-2018-04-10 18:16:24 INFO  HomePage:210 - The menu tab clicked :-T-SHIRTS
-2018-04-10 18:16:31 INFO  TestBase:43 - =======Finished TS001_verifyAaddToCart test========
-2018-04-10 18:16:40 INFO  TestBase:276 - After Method
-2018-04-10 18:16:40 INFO  TestBase:295 - browser closed
-2018-04-10 18:16:41 INFO  TestBase:66 - After Class
+2018-09-18 11:13:23 INFO  TestBase:100 - Browser :- chrome
+2018-09-18 11:13:23 INFO  TestBase:109 - OS Name :-Windows 10
+2018-09-18 11:13:52 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2018-09-18 11:13:59 INFO  TestBase:301 - Before Method
+2018-09-18 11:14:00 INFO  TestBase:340 - The video recording is startted
+2018-09-18 11:14:00 INFO  TestBase:32 - -------- TC001 -> Verify the Reading Report is visible or not --------
+2018-09-18 11:14:00 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2018-09-18 11:14:05 INFO  TestBase:265 - entered username address:-roottenantadmin
+2018-09-18 11:14:06 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2018-09-18 11:14:06 INFO  TestBase:265 - clicked on login button :-Log In
+2018-09-18 11:14:20 INFO  TestBase:265 - Successfully work admin/teacher login
+2018-09-18 11:14:20 INFO  HomePage:251 - The Reading Report is visible :-true
+2018-09-18 11:14:53 INFO  HomePage:251 - The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'
+2018-09-18 11:14:53 INFO  HomePage:251 - Successfully navigate on Reading Report
+2018-09-18 11:14:53 INFO  HomePage:251 - The mastery dashboard is visible :-true
+2018-09-18 11:15:14 INFO  TestBase:42 - -------- End TC001 --------
+2018-09-18 11:15:15 INFO  TestBase:350 - The video recording is stoped
+2018-09-18 11:15:15 INFO  TestBase:287 - After Method
+2018-09-18 11:15:15 INFO  TestBase:290 - browser closed
+2018-09-18 11:15:15 INFO  TestBase:100 - Browser :- chrome
+2018-09-18 11:15:15 INFO  TestBase:109 - OS Name :-Windows 10
+2018-09-18 11:15:20 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2018-09-18 11:15:26 INFO  TestBase:301 - Before Method
+2018-09-18 11:15:26 INFO  TestBase:59 - -------- TC002 -> Verify the Mastery Reading Report is visible or not --------
+2018-09-18 11:15:26 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2018-09-18 11:15:29 INFO  TestBase:265 - entered username address:-roottenantadmin
+2018-09-18 11:15:30 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2018-09-18 11:15:30 INFO  TestBase:265 - clicked on login button :-Log In
+2018-09-18 11:15:38 INFO  TestBase:265 - Successfully work admin/teacher login
+2018-09-18 11:15:39 INFO  HomePage:251 - The Math Report is visible :-true
+2018-09-18 11:16:06 INFO  HomePage:251 - The Math Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777200&applicationId=7772']'
+2018-09-18 11:16:06 INFO  HomePage:251 - Successfully navigate on Math Report
+2018-09-18 11:16:06 INFO  HomePage:251 - The mastery dashboard is visible :-true
+2018-09-18 11:16:23 INFO  TestBase:69 - -------- End TC002 --------
+2018-09-18 11:16:24 INFO  TestBase:287 - After Method
+2018-09-18 11:16:24 INFO  TestBase:290 - browser closed
+2018-09-18 11:16:24 INFO  TestBase:100 - Browser :- chrome
+2018-09-18 11:16:24 INFO  TestBase:109 - OS Name :-Windows 10
+2018-09-18 11:16:29 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2018-09-18 11:16:37 INFO  TestBase:301 - Before Method
+2018-09-18 11:16:37 INFO  TestBase:85 - -------- TC003 -> Verify that the Comprehensiv is change to Assessed --------
+2018-09-18 11:16:37 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2018-09-18 11:16:41 INFO  TestBase:265 - entered username address:-roottenantadmin
+2018-09-18 11:16:41 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2018-09-18 11:16:41 INFO  TestBase:265 - clicked on login button :-Log In
+2018-09-18 11:16:51 INFO  TestBase:265 - Successfully work admin/teacher login
+2018-09-18 11:16:51 INFO  HomePage:251 - The Reading Report is visible :-true
+2018-09-18 11:17:16 INFO  HomePage:251 - The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'
+2018-09-18 11:17:16 INFO  HomePage:251 - Successfully navigate on Reading Report
+2018-09-18 11:17:16 INFO  HomePage:251 - The mastery dashboard is visible :-true
+2018-09-18 11:17:31 INFO  TestBase:265 - The Comprehensiv is visible :-true
+2018-09-18 11:17:31 INFO  TestBase:265 - The Assessed is visible :-true
+2018-09-18 11:17:31 INFO  TestBase:265 - Successfully selected Assessed
+2018-09-18 11:17:38 INFO  TestBase:265 - The Assessed is visible :-true
+2018-09-18 11:17:39 INFO  TestBase:265 - The Comprehensiv is visible :-true
+2018-09-18 11:17:39 INFO  TestBase:265 - Successfully selected Comprehnsiv
+2018-09-18 11:17:39 INFO  TestBase:287 - After Method
+2018-09-18 11:17:39 INFO  TestBase:290 - browser closed
+2018-09-18 11:17:40 INFO  TestBase:307 - After Suite
+2019-03-12 14:24:35 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:24:35 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:25:14 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:25:22 INFO  TestBase:301 - Before Method
+2019-03-12 14:25:23 INFO  TestBase:340 - The video recording is startted
+2019-03-12 14:25:23 INFO  TestBase:32 - -------- TC001 -> Verify the Reading Report is visible or not --------
+2019-03-12 14:25:23 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:25:32 INFO  TestBase:265 - entered username address:-roottenantadmin
+2019-03-12 14:25:32 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2019-03-12 14:25:32 INFO  TestBase:265 - clicked on login button :-Log In
+2019-03-12 14:25:56 INFO  TestBase:265 - Successfully work admin/teacher login
+2019-03-12 14:25:57 INFO  HomePage:251 - The Reading Report is visible :-true
+2019-03-12 14:26:36 INFO  HomePage:251 - The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'
+2019-03-12 14:26:36 INFO  HomePage:251 - Successfully navigate on Reading Report
+2019-03-12 14:26:56 INFO  HomePage:251 - Error message in masteryDashboard method no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61108}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir15092_23386}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71c942edc01c606cf5ba294cdc78a3aa
+*** Element info: {Using=xpath, value=//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]}
+2019-03-12 14:26:56 INFO  TestBase:350 - The video recording is stoped
+2019-03-12 14:26:57 INFO  TestBase:287 - After Method
+2019-03-12 14:26:57 INFO  TestBase:290 - browser closed
+2019-03-12 14:26:57 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:26:57 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:27:05 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:27:14 INFO  TestBase:301 - Before Method
+2019-03-12 14:27:14 INFO  TestBase:59 - -------- TC002 -> Verify the Mastery Reading Report is visible or not --------
+2019-03-12 14:27:14 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:27:19 INFO  TestBase:265 - entered username address:-roottenantadmin
+2019-03-12 14:27:19 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2019-03-12 14:27:20 INFO  TestBase:265 - clicked on login button :-Log In
+2019-03-12 14:27:37 INFO  TestBase:265 - Successfully work admin/teacher login
+2019-03-12 14:27:37 INFO  HomePage:251 - The Math Report is visible :-true
+2019-03-12 14:28:13 INFO  HomePage:251 - The Math Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777200&applicationId=7772']'
+2019-03-12 14:28:13 INFO  HomePage:251 - Successfully navigate on Math Report
+2019-03-12 14:28:33 INFO  HomePage:251 - Error message in masteryDashboard method no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61225}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir14988_7758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8a7132f9055f4d4709b95cc37193c80c
+*** Element info: {Using=xpath, value=//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]}
+2019-03-12 14:28:34 INFO  TestBase:287 - After Method
+2019-03-12 14:28:34 INFO  TestBase:290 - browser closed
+2019-03-12 14:28:34 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:28:34 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:28:41 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:28:54 INFO  TestBase:301 - Before Method
+2019-03-12 14:28:54 INFO  TestBase:85 - -------- TC003 -> Verify that the Comprehensiv is change to Assessed --------
+2019-03-12 14:28:54 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:29:10 INFO  TestBase:265 - entered username address:-roottenantadmin
+2019-03-12 14:29:10 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2019-03-12 14:29:11 INFO  TestBase:265 - clicked on login button :-Log In
+2019-03-12 14:29:37 INFO  TestBase:265 - Successfully work admin/teacher login
+2019-03-12 14:29:37 INFO  HomePage:251 - The Reading Report is visible :-true
+2019-03-12 14:30:15 INFO  HomePage:251 - The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'
+2019-03-12 14:30:15 INFO  HomePage:251 - Successfully navigate on Reading Report
+2019-03-12 14:30:35 INFO  HomePage:251 - Error message in masteryDashboard method no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir16400_11815}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e4072f5b58ec393f519b0ca9a0cbbe37
+*** Element info: {Using=xpath, value=//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]}
+2019-03-12 14:30:35 INFO  TestBase:287 - After Method
+2019-03-12 14:30:37 INFO  TestBase:290 - browser closed
+2019-03-12 14:30:38 INFO  TestBase:307 - After Suite
+2019-03-12 14:32:48 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:32:48 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:32:56 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:33:06 INFO  TestBase:301 - Before Method
+2019-03-12 14:33:06 INFO  TestBase:340 - The video recording is startted
+2019-03-12 14:33:06 INFO  TestBase:32 - -------- TC001 -> Verify the Reading Report is visible or not --------
+2019-03-12 14:33:06 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:33:21 INFO  TestBase:265 - entered username address:-roottenantadmin
+2019-03-12 14:33:21 INFO  TestBase:265 - entered password:-Adminbddemo9rd2
+2019-03-12 14:33:21 INFO  TestBase:265 - clicked on login button :-Log In
+2019-03-12 14:33:42 INFO  TestBase:265 - Successfully work admin/teacher login
+2019-03-12 14:33:43 INFO  HomePage:251 - The Reading Report is visible :-true
+2019-03-12 14:34:16 INFO  HomePage:251 - The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'
+2019-03-12 14:34:16 INFO  HomePage:251 - Successfully navigate on Reading Report
+2019-03-12 14:34:36 INFO  HomePage:251 - Error message in masteryDashboard method no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61440}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir2384_10273}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a52f4f1d2c07d5c749c8736223d9e6c8
+*** Element info: {Using=xpath, value=//div[text()='Monitor Student Mastery Dashboard']/ancestor::div[3]}
+2019-03-12 14:34:37 INFO  TestBase:350 - The video recording is stoped
+2019-03-12 14:34:38 INFO  TestBase:287 - After Method
+2019-03-12 14:34:38 INFO  TestBase:290 - browser closed
+2019-03-12 14:34:38 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:34:38 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:34:49 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:34:51 INFO  TestBase:301 - Before Method
+2019-03-12 14:34:51 INFO  TestBase:59 - -------- TC002 -> Verify the Mastery Reading Report is visible or not --------
+2019-03-12 14:34:51 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:34:51 INFO  TestBase:265 - Error message in studentLogin method no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61591}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir16600_27326}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 24c3bfe17913370f9c0c8306ac84edcd
+*** Element info: {Using=xpath, value=//*[@id='NG2_UPGRADE_0_app_c0']/div/div[1]/div/home/div/role-selector/role[2]}
+2019-03-12 14:34:54 INFO  TestBase:307 - After Suite
+2019-03-12 14:38:05 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:38:05 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:38:11 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:38:13 INFO  TestBase:301 - Before Method
+2019-03-12 14:38:14 INFO  TestBase:340 - The video recording is startted
+2019-03-12 14:38:14 INFO  TestBase:32 - -------- TC001 -> Verify the Reading Report is visible or not --------
+2019-03-12 14:38:14 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:38:14 INFO  TestBase:265 - Error message in studentLogin method no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 31 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61643}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir9668_1078}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 1608f12ac3d73098f55afb0b2f0e2ac6
+*** Element info: {Using=xpath, value=//*[@id='NG2_UPGRADE_0_app_c0']/div/div[1]/div/home/div/role-selector/role[2]}
+2019-03-12 14:38:14 INFO  TestBase:350 - The video recording is stoped
+2019-03-12 14:38:15 INFO  TestBase:307 - After Suite
+2019-03-12 14:52:19 INFO  TestBase:100 - Browser :- chrome
+2019-03-12 14:52:19 INFO  TestBase:109 - OS Name :-Windows 10
+2019-03-12 14:52:27 INFO  TestBase:151 - navigating to :-https://global-bddemo9.renaissance-golabs.com/welcomeportal/bddemo9rd2
+2019-03-12 14:52:44 INFO  TestBase:301 - Before Method
+2019-03-12 14:52:44 INFO  TestBase:340 - The video recording is startted
+2019-03-12 14:52:44 INFO  TestBase:32 - -------- TC001 -> Verify the Reading Report is visible or not --------
+2019-03-12 14:52:44 INFO  TestBase:265 - cliked on admin/teacher tab :-Teacher / Admin
+2019-03-12 14:52:44 INFO  TestBase:265 - Error message in studentLogin method no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'PNGD1263', ip: '192.168.241.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61846}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\ROSHAN~1\AppData\Local\Temp\scoped_dir5784_2542}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=72.0.3626.121, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 63c6d181be5df24988b868275e688fff
+*** Element info: {Using=xpath, value=//*[@id='NG2_UPGRADE_0_app_c0']/div/div[1]/div/home/div/role-selector/role[2]}
+2019-03-12 14:52:45 INFO  TestBase:350 - The video recording is stoped

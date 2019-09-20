@@ -6,13 +6,15 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 /**
  * 
- * @author Roshan Mankani
- *
+ * @author roshan_mankani
+ *  The maxRetryCount is use to retry the number attempt failed testcases again & again for passed because
+ *  in  testcases there has some small reason to fail for avoid those reasons use rety
+ *  & set maxRetryCount = 3 or more.
  */
 public class Retry implements IRetryAnalyzer {
 	public static final Logger log = Logger.getLogger(Retry.class.getName());
 	private int retryCount = 0;
-	private int maxRetryCount = 3;
+	private int maxRetryCount = 0;
 	
 	public boolean retry(ITestResult result) {
 		if (retryCount < maxRetryCount) {

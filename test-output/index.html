@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Regression_Suite">
-              <span class="suite-name border-passed">Regression Suite</span>
+              <span class="suite-name border-failed">Regression Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Regression_Suite">
-                    <span>D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\testNG.xml</span>
+                    <span>D:\g1\uiAutomation\testNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Regression_Suite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.automation.uiAutomation.smoketest.SmokeTest" hash-for-method="TC003_verify_Comprehensiv_to_Assessed">TC003_verify_Comprehensiv_to_Assessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +116,12 @@
                     <div class="method-list-content passed suite-Regression_Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart" hash-for-method="TS001_verifyAaddToCart">TS001_verifyAaddToCart</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.automation.uiAutomation.smoketest.SmokeTest" hash-for-method="TC001_verify_Mastery_Reading_Report">TC001_verify_Mastery_Reading_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_Suite" title="com.test.automation.uiAutomation.smoketest.SmokeTest" hash-for-method="TC002_verify_Mastery_Math_Report">TC002_verify_Mastery_Math_Report</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_Suite -->
@@ -117,17 +136,43 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
-          <div class="suite-Regression_Suite-class-passed">
+          <div class="suite-Regression_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.test.automation.uiAutomation.smoketest.SmokeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TS001_verifyAaddToCart">
-                  </a> <!-- TS001_verifyAaddToCart -->
-                  <span class="method-name">TS001_verifyAaddToCart</span>
+                  <a name="TC003_verify_Comprehensiv_to_Assessed">
+                  </a> <!-- TC003_verify_Comprehensiv_to_Assessed -->
+                  <span class="method-name">TC003_verify_Comprehensiv_to_Assessed</span>
+                  <div class="stack-trace">java.lang.AssertionError: The Comprehensiv to Assessed is not changed expected [false] but found [true]
+	at com.test.automation.uiAutomation.smoketest.SmokeTest.TC003_verify_Comprehensiv_to_Assessed(SmokeTest.java:99)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-failed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.uiAutomation.smoketest.SmokeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC001_verify_Mastery_Reading_Report">
+                  </a> <!-- TC001_verify_Mastery_Reading_Report -->
+                  <span class="method-name">TC001_verify_Mastery_Reading_Report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC002_verify_Mastery_Math_Report">
+                  </a> <!-- TC002_verify_Mastery_Math_Report -->
+                  <span class="method-name">TC002_verify_Mastery_Math_Report</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +180,7 @@
         </div> <!-- panel Regression_Suite -->
         <div panel-name="test-xml-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\testNG.xml</span>
+            <span class="header-content">D:\g1\uiAutomation\testNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,10 +191,12 @@
     &lt;listener class-name=&quot;com.test.automation.uiAutomation.customListner.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;HomePageTest&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart&quot;/&gt;
-    &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- HomePageTest --&gt;
+  &lt;test name=&quot;SmokeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.automation.uiAutomation.smoketest.SmokeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SmokeTest --&gt;
 &lt;/suite&gt; &lt;!-- Regression Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,7 +208,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">HomePageTest (1 class)</span>
+                <span class="test-name">HomePageTest (0 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">SmokeTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,16 +237,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TS001_verifyAaddToCart')
-data.setCell(0, 2, 'com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart')
-data.setCell(0, 3, 100152);
+data.setCell(0, 1, 'TC001_verify_Mastery_Reading_Report')
+data.setCell(0, 2, 'com.test.automation.uiAutomation.smoketest.SmokeTest')
+data.setCell(0, 3, 75713);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC003_verify_Comprehensiv_to_Assessed')
+data.setCell(1, 2, 'com.test.automation.uiAutomation.smoketest.SmokeTest')
+data.setCell(1, 3, 61633);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC002_verify_Mastery_Math_Report')
+data.setCell(2, 2, 'com.test.automation.uiAutomation.smoketest.SmokeTest')
+data.setCell(2, 3, 58042);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -208,9 +266,53 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">TS001_verifyAaddToCart</span>
+              <span class="reporter-method-name">TC002_verify_Mastery_Math_Report</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">cliked on admin/teacher tab :-Teacher / Admin</span>
+                <span class="reporter-method-output">entered username address:-roottenantadmin</span>
+                <span class="reporter-method-output">entered password:-Adminbddemo9rd2</span>
+                <span class="reporter-method-output">clicked on login button :-Log In</span>
+                <span class="reporter-method-output">Successfully work admin/teacher login</span>
+                <span class="reporter-method-output">The Math Report is visible :-true</span>
+                <span class="reporter-method-output">The Math Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777200&applicationId=7772']'</span>
+                <span class="reporter-method-output">Successfully navigate on Math Report</span>
+                <span class="reporter-method-output">The mastery dashboard is visible :-true</span>
+                <span class="reporter-method-output"><a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC001_verify_Mastery_Reading_Report</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">cliked on admin/teacher tab :-Teacher / Admin</span>
+                <span class="reporter-method-output">entered username address:-roottenantadmin</span>
+                <span class="reporter-method-output">entered password:-Adminbddemo9rd2</span>
+                <span class="reporter-method-output">clicked on login button :-Log In</span>
+                <span class="reporter-method-output">Successfully work admin/teacher login</span>
+                <span class="reporter-method-output">The Reading Report is visible :-true</span>
+                <span class="reporter-method-output">The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'</span>
+                <span class="reporter-method-output">Successfully navigate on Reading Report</span>
+                <span class="reporter-method-output">The mastery dashboard is visible :-true</span>
+                <span class="reporter-method-output"><a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png' height='100' width='100'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC003_verify_Comprehensiv_to_Assessed</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">cliked on admin/teacher tab :-Teacher / Admin</span>
+                <span class="reporter-method-output">entered username address:-roottenantadmin</span>
+                <span class="reporter-method-output">entered password:-Adminbddemo9rd2</span>
+                <span class="reporter-method-output">clicked on login button :-Log In</span>
+                <span class="reporter-method-output">Successfully work admin/teacher login</span>
+                <span class="reporter-method-output">The Reading Report is visible :-true</span>
+                <span class="reporter-method-output">The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']'</span>
+                <span class="reporter-method-output">Successfully navigate on Reading Report</span>
+                <span class="reporter-method-output">The mastery dashboard is visible :-true</span>
+                <span class="reporter-method-output">The Comprehensiv is visible :-true</span>
+                <span class="reporter-method-output">The Assessed is visible :-true</span>
+                <span class="reporter-method-output">Successfully selected Assessed</span>
+                <span class="reporter-method-output">The Assessed is visible :-true</span>
+                <span class="reporter-method-output">The Comprehensiv is visible :-true</span>
+                <span class="reporter-method-output">Successfully selected Comprehnsiv</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -228,27 +330,49 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="chronological-class-name">com.test.automation.uiAutomation.smoketest.SmokeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart.TS001_verifyAaddToCart...)</span>
-                <span class="method-start">24966 ms</span>
+                <span class="method-name">beforeMethod(public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC001_verify_Mastery_Reading_Report...)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TS001_verifyAaddToCart</span>
-                <span class="method-start">24972 ms</span>
+                <span class="method-name">TC001_verify_Mastery_Reading_Report</span>
+                <span class="method-start">36328 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=TS001_verifyAaddToCart status=SUCCESS method=TC001_VerifyAaddToCart.TS001_verifyAad...)</span>
-                <span class="method-start">125132 ms</span>
+                <span class="method-name">afterMethod([TestResult name=TC001_verify_Mastery_Reading_Report status=SUCCESS method=SmokeTest.TC001_verify_Ma...)</span>
+                <span class="method-start">112043 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC002_verify_Mastery_Math_Report())</span>
+                <span class="method-start">112217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC002_verify_Mastery_Math_Report</span>
+                <span class="method-start">122986 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC002_verify_Mastery_Math_Report status=SUCCESS method=SmokeTest.TC002_verify_Maste...)</span>
+                <span class="method-start">181029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC003_verify_Comprehensiv_to_Assess...)</span>
+                <span class="method-start">181236 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC003_verify_Comprehensiv_to_Assessed</span>
+                <span class="method-start">194352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TC003_verify_Comprehensiv_to_Assessed status=FAILURE method=SmokeTest.TC003_verify_...)</span>
+                <span class="method-start">256010 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
                 <span class="method-name">endTest</span>
-                <span class="method-start">125134 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">256774 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

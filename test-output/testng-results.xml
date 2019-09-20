@@ -1,53 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]>
+      <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+    </line>
+    <line>
+      <![CDATA[entered username address:-roottenantadmin]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-Adminbddemo9rd2]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button :-Log In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully work admin/teacher login]]>
+    </line>
+    <line>
+      <![CDATA[The Reading Report is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']']]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigate on Reading Report]]>
+    </line>
+    <line>
+      <![CDATA[The mastery dashboard is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+    </line>
+    <line>
+      <![CDATA[entered username address:-roottenantadmin]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-Adminbddemo9rd2]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button :-Log In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully work admin/teacher login]]>
+    </line>
+    <line>
+      <![CDATA[The Math Report is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Math Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777200&applicationId=7772']']]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigate on Math Report]]>
+    </line>
+    <line>
+      <![CDATA[The mastery dashboard is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+    </line>
+    <line>
+      <![CDATA[entered username address:-roottenantadmin]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-Adminbddemo9rd2]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login button :-Log In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully work admin/teacher login]]>
+    </line>
+    <line>
+      <![CDATA[The Reading Report is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']']]>
+    </line>
+    <line>
+      <![CDATA[Successfully navigate on Reading Report]]>
+    </line>
+    <line>
+      <![CDATA[The mastery dashboard is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Comprehensiv is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Assessed is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected Assessed]]>
+    </line>
+    <line>
+      <![CDATA[The Assessed is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[The Comprehensiv is visible :-true]]>
+    </line>
+    <line>
+      <![CDATA[Successfully selected Comprehnsiv]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_18_09_2018_11_17_39.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_18_09_2018_11_17_39.png' height='100' width='100'/> </a>]]>
     </line>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="125690" started-at="2018-04-10T12:44:35Z" finished-at="2018-04-10T12:46:41Z">
+  <suite name="Regression Suite" duration-ms="256836" started-at="2018-09-18T05:43:23Z" finished-at="2018-09-18T05:47:39Z">
     <groups>
     </groups>
-    <test name="HomePageTest" duration-ms="125690" started-at="2018-04-10T12:44:35Z" finished-at="2018-04-10T12:46:41Z">
-      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="setUp" is-config="true" duration-ms="24953" started-at="2018-04-10T18:14:35Z" finished-at="2018-04-10T18:15:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2018-04-10T18:15:00Z" finished-at="2018-04-10T18:15:00Z">
+    <test name="HomePageTest" duration-ms="12" started-at="2018-09-18T05:43:23Z" finished-at="2018-09-18T05:43:23Z">
+    </test> <!-- HomePageTest -->
+    <test name="SmokeTest" duration-ms="256657" started-at="2018-09-18T05:43:23Z" finished-at="2018-09-18T05:47:39Z">
+      <class name="com.test.automation.uiAutomation.smoketest.SmokeTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="beforeMethod" is-config="true" duration-ms="36328" started-at="2018-09-18T11:13:23Z" finished-at="2018-09-18T11:13:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart.TS001_verifyAaddToCart()]]>
+                <![CDATA[public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC001_verify_Mastery_Reading_Report()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TS001_verifyAaddToCart()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="TS001_verifyAaddToCart" duration-ms="100152" started-at="2018-04-10T18:15:00Z" finished-at="2018-04-10T18:16:40Z">
+        <test-method status="PASS" signature="TC001_verify_Mastery_Reading_Report()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="TC001_verify_Mastery_Reading_Report" duration-ms="75713" started-at="2018-09-18T11:13:59Z" finished-at="2018-09-18T11:15:15Z">
           <reporter-output>
             <line>
-              <![CDATA[<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]>
+              <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+            </line>
+            <line>
+              <![CDATA[entered username address:-roottenantadmin]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-Adminbddemo9rd2]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button :-Log In]]>
+            </line>
+            <line>
+              <![CDATA[Successfully work admin/teacher login]]>
+            </line>
+            <line>
+              <![CDATA[The Reading Report is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']']]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigate on Reading Report]]>
+            </line>
+            <line>
+              <![CDATA[The mastery dashboard is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC001_verify_Mastery_Reading_Report_18_09_2018_11_15_14.png' height='100' width='100'/> </a>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TS001_verifyAaddToCart -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-10T18:16:40Z" finished-at="2018-04-10T18:16:40Z">
+        </test-method> <!-- TC001_verify_Mastery_Reading_Report -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="afterMethod" is-config="true" duration-ms="173" started-at="2018-09-18T11:15:15Z" finished-at="2018-09-18T11:15:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TS001_verifyAaddToCart status=SUCCESS method=TC001_VerifyAaddToCart.TS001_verifyAaddToCart()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d] output=<a href='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png'> <img src='D:\A_Practice_Framework\Page\PageObjectWithPageFactoryFramework-master\src\main\java\com\test\automation\uiAutomation\screenshot\verifyAaddToCart_10_04_2018_06_16_31.png' height='100' width='100'/> </a>]]]>
+                <![CDATA[[TestResult name=TC001_verify_Mastery_Reading_Report status=SUCCESS method=SmokeTest.TC001_verify_Mastery_Reading_Report()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c] output=cliked on admin/teacher tab :-Teacher / Admin]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart@4b86805d]" name="endTest" is-config="true" duration-ms="540" started-at="2018-04-10T18:16:40Z" finished-at="2018-04-10T18:16:41Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="beforeMethod" is-config="true" duration-ms="10769" started-at="2018-09-18T11:15:15Z" finished-at="2018-09-18T11:15:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC002_verify_Mastery_Math_Report()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC002_verify_Mastery_Math_Report()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="TC002_verify_Mastery_Math_Report" duration-ms="58042" started-at="2018-09-18T11:15:26Z" finished-at="2018-09-18T11:16:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+            </line>
+            <line>
+              <![CDATA[entered username address:-roottenantadmin]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-Adminbddemo9rd2]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button :-Log In]]>
+            </line>
+            <line>
+              <![CDATA[Successfully work admin/teacher login]]>
+            </line>
+            <line>
+              <![CDATA[The Math Report is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Math Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777200&applicationId=7772']']]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigate on Math Report]]>
+            </line>
+            <line>
+              <![CDATA[The mastery dashboard is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\TC002_verify_Mastery_Math_Report_18_09_2018_11_16_23.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC002_verify_Mastery_Math_Report -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="afterMethod" is-config="true" duration-ms="207" started-at="2018-09-18T11:16:24Z" finished-at="2018-09-18T11:16:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC002_verify_Mastery_Math_Report status=SUCCESS method=SmokeTest.TC002_verify_Mastery_Math_Report()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c] output=cliked on admin/teacher tab :-Teacher / Admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="beforeMethod" is-config="true" duration-ms="13116" started-at="2018-09-18T11:16:24Z" finished-at="2018-09-18T11:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.uiAutomation.smoketest.SmokeTest.TC003_verify_Comprehensiv_to_Assessed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TC003_verify_Comprehensiv_to_Assessed()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="TC003_verify_Comprehensiv_to_Assessed" duration-ms="61633" started-at="2018-09-18T11:16:37Z" finished-at="2018-09-18T11:17:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Comprehensiv to Assessed is not changed expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Comprehensiv to Assessed is not changed expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at com.test.automation.uiAutomation.smoketest.SmokeTest.TC003_verify_Comprehensiv_to_Assessed(SmokeTest.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[cliked on admin/teacher tab :-Teacher / Admin]]>
+            </line>
+            <line>
+              <![CDATA[entered username address:-roottenantadmin]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-Adminbddemo9rd2]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login button :-Log In]]>
+            </line>
+            <line>
+              <![CDATA[Successfully work admin/teacher login]]>
+            </line>
+            <line>
+              <![CDATA[The Reading Report is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Reading Report is clicked :-Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='https://global-bddemo9.renaissance-golabs.com/educatorportal/launch?task=777100&applicationId=7771']']]>
+            </line>
+            <line>
+              <![CDATA[Successfully navigate on Reading Report]]>
+            </line>
+            <line>
+              <![CDATA[The mastery dashboard is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Comprehensiv is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Assessed is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected Assessed]]>
+            </line>
+            <line>
+              <![CDATA[The Assessed is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[The Comprehensiv is visible :-true]]>
+            </line>
+            <line>
+              <![CDATA[Successfully selected Comprehnsiv]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC003_verify_Comprehensiv_to_Assessed -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="afterMethod" is-config="true" duration-ms="607" started-at="2018-09-18T11:17:39Z" finished-at="2018-09-18T11:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC003_verify_Comprehensiv_to_Assessed status=FAILURE method=SmokeTest.TC003_verify_Comprehensiv_to_Assessed()[pri:1, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c] output=cliked on admin/teacher tab :-Teacher / Admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_18_09_2018_11_17_39.png'> <img src='D:\g1\uiAutomation\src\main\java\com\test\automation\uiAutomation\screenshot\blank_18_09_2018_11_17_39.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.uiAutomation.smoketest.SmokeTest@57d5872c]" name="endTest" is-config="true" duration-ms="819" started-at="2018-09-18T11:17:40Z" finished-at="2018-09-18T11:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart -->
-    </test> <!-- HomePageTest -->
+      </class> <!-- com.test.automation.uiAutomation.smoketest.SmokeTest -->
+    </test> <!-- SmokeTest -->
   </suite> <!-- Regression Suite -->
 </testng-results>
